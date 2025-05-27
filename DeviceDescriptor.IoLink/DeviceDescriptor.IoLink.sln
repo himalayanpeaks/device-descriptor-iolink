@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceDescriptor.IoLink", "DeviceDescriptor.IoLink\DeviceDescriptor.IoLink.csproj", "{5AE18381-E67A-4CF3-A9D3-40EBB5A043D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceDescriptor.IoLink.Console", "DeviceDescriptor.IoLink.Console\DeviceDescriptor.IoLink.Console.csproj", "{CC6B5A22-1BDF-0388-A900-6ECA158FC751}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AE18381-E67A-4CF3-A9D3-40EBB5A043D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AE18381-E67A-4CF3-A9D3-40EBB5A043D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AE18381-E67A-4CF3-A9D3-40EBB5A043D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AE18381-E67A-4CF3-A9D3-40EBB5A043D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC6B5A22-1BDF-0388-A900-6ECA158FC751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC6B5A22-1BDF-0388-A900-6ECA158FC751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC6B5A22-1BDF-0388-A900-6ECA158FC751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC6B5A22-1BDF-0388-A900-6ECA158FC751}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D16B37C-3FE8-4017-92EB-0537C6087073}
+	EndGlobalSection
+EndGlobal
