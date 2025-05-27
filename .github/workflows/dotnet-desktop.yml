@@ -20,7 +20,6 @@ env:
       Solution_Name: DeviceDescriptor.IoLink/DeviceDescriptor.IoLink.sln
       Project_Path: DeviceDescriptor.IoLink/DeviceDescriptor.IoLink/DeviceDescriptor.IoLink.csproj
 
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
