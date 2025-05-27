@@ -16,8 +16,10 @@ jobs:
 
     runs-on: windows-latest
 
-    env:
+env:
       Solution_Name: DeviceDescriptor.IoLink/DeviceDescriptor.IoLink.sln
+      Project_Path: DeviceDescriptor.IoLink/DeviceDescriptor.IoLink/DeviceDescriptor.IoLink.csproj
+
 
     steps:
       - name: Checkout repository
@@ -49,6 +51,7 @@ jobs:
 
     env:
       Solution_Name: DeviceDescriptor.IoLink/DeviceDescriptor.IoLink.sln
+      Project_Path: DeviceDescriptor.IoLink/DeviceDescriptor.IoLink/DeviceDescriptor.IoLink.csproj
 
     steps:
       - uses: actions/checkout@v4
@@ -80,7 +83,7 @@ jobs:
         
       - name: Pack NuGet Package
         run: |
-            dotnet pack $env:Solution_Name `
+            dotnet pack $env:Project_Path `
               --configuration Release `
               --output ./packages `
               /p:PackageVersion=${{ steps.version.outputs.PackageVersion }}
