@@ -65,15 +65,15 @@ namespace DeviceDescriptor.IoLink.Source
                 }
             }
 
-            var descriptor = new BasicDescriptor<Variable>(
-                new DeviceVariables<Variable>
+            var descriptor = new BasicDescriptor<Variable>("",
+                new DeviceVariables<Variable>("") 
                 {
                     SpecificVariableCollection = variables,
                     StandardVariableCollection = new List<Variable>(),
                     SystemVariableCollection = new List<Variable>(),
                     CommandCollection = new List<Variable>()
                 },
-                null // processData
+                null // TODO processData
             );
 
             return Task.FromResult<BasicDescriptor<Variable>?>(descriptor);

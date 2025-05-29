@@ -12,7 +12,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="DeviceDescriptor.Abstract" Version="1.1.1" />
+	  <PackageReference Include="DeviceDescriptor.Abstract" Version="1.1.4" />
 	</ItemGroup>
 
 </Project>
