@@ -24,6 +24,11 @@ namespace DeviceDescriptor.IoLink.Variables
         {
          
         }
+
+        public Variable() : base("")
+        {
+            
+        }
         public Variable(string name, int index, int subindex, bool isDynamic, Definition.AccessType access, Definition.DataType dataType, int arrayCount, int lengthInBits, int offset, string? value, string? defaultValue, string? minimum, string? maximum, string? valid) 
             : base(name, index, access, dataType, arrayCount, lengthInBits, offset, value, defaultValue, minimum, maximum, valid)
         {
