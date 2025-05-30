@@ -6,8 +6,8 @@ namespace DeviceDescriptor.IoLink
 {
     public class Descriptor : BasicDescriptor<Variable>
     {
-        public Descriptor(string name, DeviceVariables<Variable> variables, ProcessData<Variable> processData) 
-            : base(name, variables, processData)
+        public Descriptor(string name, DeviceVariables<Variable> variables) 
+            : base(name, variables)
         {
         }
     }

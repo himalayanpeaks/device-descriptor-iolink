@@ -28,7 +28,7 @@ namespace DeviceDescriptor.IoLink.Source
                 if (match?.DownloadUrl == null)
                     return null;
                 //TODO: Add logic to download, unzip, find xml, cast it to IODD1_1 class
-                return new BasicDescriptor<Variable>("", new DeviceVariables<Variable>("Vars"), new ProcessData<Variable>());
+                return new BasicDescriptor<Variable>("", new DeviceVariables<Variable>("Vars"));
             }
             catch
             {
